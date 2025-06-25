@@ -1,0 +1,14 @@
+{
+    "1": {
+        "core_content": "Explosion outside Stade de France during football match",
+        "social_phenomenon": "Terrorism and its impact on society",
+        "sentiment": "Shock, horror, concern",
+        "topic_name": "Paris Attacks"
+    },
+    "2": {
+        "core_content": "Showing solidarity with Pakistan after a terrorist attack and referencing Bataclan attacks in Paris",
+        "social_phenomenon": "Global unity and support for victims of terrorism, connection between different countries and events",
+        "sentiment": "Empathy, solidarity, hope",
+        "topic_name": "Global Solidarity Against Terrorism"
+    }
+}

@@ -1,0 +1,111 @@
+F:\Python\python.exe F:\Python\python_work\云计算与大数据分析\大作业\任务三.py 
+2025-06-25 09:40:45.662521: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-25 09:40:46.710824: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Loading datasets...
+Preprocessing data...
+Loading BERT model from C:\BERT...
+Creating data loaders...
+Initializing model...
+Using device: cpu
+
+Starting training...
+
+==================================================
+Epoch 1/5
+==================================================
+Training: 100%|██████████| 300/300 [28:25<00:00,  5.69s/batch, loss=0.3600]
+
+Validating...
+Validation: 100%|██████████| 72/72 [01:46<00:00,  1.47s/batch, loss=0.3631]
+
+Training Loss: 0.3600
+Validation Loss: 0.3631
+Validation Accuracy: 0.8877
+Validation F1 Score: 0.8349
+Time elapsed: 00:30:12
+==================================================
+
+==================================================
+Epoch 2/5
+==================================================
+Training: 100%|██████████| 300/300 [35:05<00:00,  7.02s/batch, loss=0.3545]
+
+Validating...
+Validation: 100%|██████████| 72/72 [01:34<00:00,  1.31s/batch, loss=0.3543]
+
+Training Loss: 0.3545
+Validation Loss: 0.3543
+Validation Accuracy: 0.8877
+Validation F1 Score: 0.8349
+Time elapsed: 01:06:51
+==================================================
+
+==================================================
+Epoch 3/5
+==================================================
+Training: 100%|██████████| 300/300 [24:48<00:00,  4.96s/batch, loss=0.3533]
+
+Validating...
+Validation: 100%|██████████| 72/72 [01:42<00:00,  1.42s/batch, loss=0.3492]
+
+Training Loss: 0.3533
+Validation Loss: 0.3492
+Validation Accuracy: 0.8877
+Validation F1 Score: 0.8349
+Time elapsed: 01:33:23
+==================================================
+
+==================================================
+Epoch 4/5
+==================================================
+Training: 100%|██████████| 300/300 [24:37<00:00,  4.92s/batch, loss=0.3409]
+
+Validating...
+Validation: 100%|██████████| 72/72 [01:33<00:00,  1.30s/batch, loss=0.3351]
+
+Training Loss: 0.3409
+Validation Loss: 0.3351
+Validation Accuracy: 0.8877
+Validation F1 Score: 0.8349
+Time elapsed: 01:59:33
+==================================================
+
+==================================================
+Epoch 5/5
+==================================================
+Training: 100%|██████████| 300/300 [37:51<00:00,  7.57s/batch, loss=0.2901]
+
+Validating...
+Validation: 100%|██████████| 72/72 [01:32<00:00,  1.28s/batch, loss=0.3102]
+
+Training Loss: 0.2901
+Validation Loss: 0.3102
+Validation Accuracy: 0.9018
+Validation F1 Score: 0.8813
+Time elapsed: 02:38:57
+==================================================
+
+Training completed in 02:38:57
+
+Evaluating model on test set...
+
+Evaluating on test set...
+Testing: 100%|██████████| 100/100 [02:08<00:00,  1.28s/batch, loss=0.7778]
+
+Test Loss: 0.7778
+Test Accuracy: 0.7337
+Test F1 Score: 0.6513
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.98      0.84       289
+           1       0.60      0.08      0.15       109
+
+    accuracy                           0.73       398
+   macro avg       0.67      0.53      0.49       398
+weighted avg       0.70      0.73      0.65       398
+
+Model saved to: saved_models\multimodal_fusion_model.pt
+Training history saved to saved_models\training_history.json
+
+进程已结束，退出代码为 0

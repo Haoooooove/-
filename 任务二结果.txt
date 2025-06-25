@@ -1,0 +1,49 @@
+F:\Python\python.exe F:\Python\python_work\云计算与大数据分析\大作业\任务二.py 
+开始数据准备...
+原始数据: 2178 条记录
+有效数据: 2178 条记录
+抽样完成，共 10 条有效新闻
+抽样数据已保存至: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis\sampled_data.csv
+
+开始数据预处理...
+预处理完成，保留 10 条有效新闻
+预处理数据已保存至: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis\processed_data.csv
+
+构建词典和语料库...
+词典大小: 104 个词
+语料库大小: 10 个文档
+
+训练LDA模型...
+设置主题数量: 2
+LDA模型已保存至: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis\lda_model
+
+主题关键词:
+主题 #1: mon, mar, tower, light, pakistanexplosion, solidarity, pakistan, eiffel, jan, attacksparis
+主题 #2: nov, attacksparis, paris, france, fri, wooow, via, outside, stade, explosion
+
+生成可视化分析...
+pyLDAvis交互图已保存至: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis\lda_visualization.html
+主题词云图已保存至: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis\topic_wordclouds.png
+文档-主题热力图已保存至: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis\doc_topic_heatmap.png
+
+使用大模型分析主题内容...
+
+分析主题 #1...
+主题 #1 分析结果:
+  主题名称: Paris Attacks
+  核心内容: Explosion outside Stade de France during football match
+  社会现象: Terrorism and its impact on society
+  情感倾向: Shock, horror, concern
+
+分析主题 #2...
+主题 #2 分析结果:
+  主题名称: Global Solidarity Against Terrorism
+  核心内容: Showing solidarity with Pakistan after a terrorist attack and referencing Bataclan attacks in Paris
+  社会现象: Global unity and support for victims of terrorism, connection between different countries and events
+  情感倾向: Empathy, solidarity, hope
+
+主题分析结果已保存至: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis\topic_analyses.json
+所有分析结果已保存至目录: F:\Python\python_work\云计算与大数据分析\大作业\results\topic_analysis
+主题分析任务完成！
+
+进程已结束，退出代码为 0
